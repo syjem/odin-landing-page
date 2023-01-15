@@ -1,0 +1,33 @@
+body {
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    background-color: grey;
+    width: 50%;
+    height: 100px;
+}
+
+.members {
+    background-color: orange;
+    width: 50%;
+    height: 100px;
+}
+
+.main {
+    background: rgb(173, 157, 157);
+    width: 50%;
+    height: 100px;
+}
+
+.footer {
+    background-color: rgb(150, 147, 147);
+    width: 50%;
+    height: 100px;
+}
