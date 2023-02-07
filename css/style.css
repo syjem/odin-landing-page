@@ -37,6 +37,7 @@ body {
 
 .main-nav {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 15px;
     color: white;
@@ -73,20 +74,33 @@ body {
 
 
 
-.members {
-    background-color: orange;
-    width: 50%;
-    height: 100px;
-}
 
 .main {
     background: rgb(173, 157, 157);
-    width: 50%;
-    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.footer {
-    background-color: rgb(150, 147, 147);
-    width: 50%;
-    height: 100px;
+.home {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    border: 1px solid red;
+}
+
+.main-info {
+
+}
+
+.wallpaper {
+
+    width: 40%;
+}
+
+.main-image {
+    width: 100%;
 }
