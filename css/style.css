@@ -1,18 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: azure;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 .header {
-    background-color: grey;
-    width: 50%;
-    height: 100px;
+    background-color: black;
+    width: 100%;
+    height: 110px;
 }
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.image-container {
+    width: 200px;
+    height: 100%;
+}
+
+.main-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    list-style-type: none;
+    padding: 0 50px;
+}
+
+.main-nav li {
+    margin: 0 20px;
+}
+
+.main-nav li a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .members {
     background-color: orange;
