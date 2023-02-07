@@ -87,6 +87,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 50px;
 }
 
 .home {
@@ -181,8 +182,6 @@ h4 {
     text-align: center;
 }
 
-
-
 .card {
     top: 10px;
     width: 25%;
@@ -206,4 +205,47 @@ h4 {
     height: 100%;
     transform: skew(0deg);
     opacity: 1;
+  }
+
+  .quotes {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .special {
+    width: 100%;
+    text-align: start;
+    color: orangered;
+    margin-bottom: 10px;
+  }
+
+  .quotes iframe {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .special span {
+    font-size: 13px;
+    color: rgb(190, 160, 160);
+  }
+
+.quote-by-me {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid snow;
+    border-radius: 5px;
+}
+
+
+  .me {
+    width: 100%;
+    color: whitesmoke;
+    text-align: justify;
+  }
+
+  .cite {
+    color: rgb(155, 130, 134);
+    text-align: end;
+    width: 100%;
   }
