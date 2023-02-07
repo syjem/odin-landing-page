@@ -199,9 +199,11 @@ h4 {
     transition: .4s;
     overflow: hidden;
     color: white;
+    opacity: 0.1;
   }
   
   .card:hover {
     height: 100%;
     transform: skew(0deg);
+    opacity: 1;
   }
