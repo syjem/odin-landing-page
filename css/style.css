@@ -253,3 +253,41 @@ h4 {
     text-align: end;
     width: 100%;
   }
+
+
+  .contact {
+    width: 80%;
+    background-color: #3882f6;
+    color: rgb(224, 232, 236);
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .wrapper {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+  }
+
+  .btn-assemble {
+    display: flex;
+    justify-content: center;
+  }
+
+  #assemble {
+    border: 2px solid white;
+    width: 100%;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    cursor: pointer;
+    margin: auto;
+  }
