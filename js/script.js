@@ -9,6 +9,7 @@ $(document).ready(function(){
     });
   });
 
+
 // About Section
 
   $(document).ready(function(){
@@ -18,6 +19,7 @@ $(document).ready(function(){
       }, 800);
     });
   });
+
 
 //  Home Section
 
@@ -29,3 +31,13 @@ $(document).ready(function(){
     });
   });
   
+
+//  Contact Section
+
+$(document).ready(function(){
+    $("#contact-btn").click(function() {
+      $("html, body").animate({
+        scrollTop: $("#contact").offset().top
+      }, 800);
+    });
+  });
