@@ -1,3 +1,6 @@
+
+// Watch Button Smooth Scrolling
+
 $(document).ready(function(){
     $("#btn").click(function() {
       $("html, body").animate({
